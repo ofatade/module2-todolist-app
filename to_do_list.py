@@ -79,15 +79,15 @@ Enter the corresponding number for the action you'd like to take
 ''')
         
         if tasks == '1':
-            add_task() # add function to add to the list
+            add_task() # add function to add to the to-do-list
         elif tasks == '2':
-            view_tasks() # function for removing from the list
+            view_tasks() # function to view current tasks
         elif tasks == '3':
-            completed_task() # function to view current list
+            completed_task() # function for completed tasks
         elif tasks == '4':
-            delete_task()
+            delete_task() # function for removing from tasks
         elif tasks == '5':
-            quit_app()
+            quit_app() # function to exit the app
             break
         else:
             print("Please enter a valid number!!")
